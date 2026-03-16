@@ -125,7 +125,6 @@ FEATURE_DESCS={
 }
 
 st.markdown("# 🏠 California Housing Price Predictor")
-st.markdown("<p style='color:#7a97b5;font-size:0.92rem;margin-top:-0.8rem;'>KNN Regression · GridSearchCV · scikit-learn Pipeline</p>",unsafe_allow_html=True)
 st.markdown("---")
 
 with st.spinner("Loading model and dataset…"):
