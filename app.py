@@ -133,10 +133,7 @@ with st.spinner("Loading model and dataset…"):
     X,y,X_train,X_test,y_train,y_test=load_dataset()
     y_pred_all,r2,mse,rmse=compute_metrics(model,X_test,y_test)
 
-if model_status=="loaded":
-    st.success("✅ Pre-trained pipeline loaded from `california_knn_pipeline.pkl`")
-else:
-    st.info("ℹ️ No `.pkl` file found — model was trained fresh and saved automatically.")
+
 
 knn_step=model.named_steps["knn"]
 best_params={"n_neighbors":knn_step.n_neighbors,"weights":knn_step.weights,"p":knn_step.p}
