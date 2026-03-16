@@ -1,7 +1,7 @@
 """
 California Housing Price Predictor — Streamlit App
 ====================================================
-KNN Regression · GridSearchCV · scikit-learn Pipeline
+
 
 How to run:
     pip install streamlit scikit-learn pandas numpy matplotlib seaborn
