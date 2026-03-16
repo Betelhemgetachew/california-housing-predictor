@@ -286,8 +286,7 @@ FEATURE_DESCS = {
 st.markdown("# 🏠 California Housing Price Predictor")
 st.markdown(
     "<p style='color:#7a97b5; font-size:0.92rem; margin-top:-0.8rem;'>"
-    "KNN Regression · GridSearchCV · scikit-learn Pipeline &nbsp;|&nbsp; "
-    "Betelhem Kebede &nbsp;·&nbsp; CS-DA03-26035</p>",
+    "KNN Regression · GridSearchCV · scikit-learn Pipeline</p>",
     unsafe_allow_html=True,
 )
 st.markdown("---")
@@ -590,13 +589,6 @@ with tab_about:
 
     with a1:
         st.markdown("""
-**📌 Project**  
-Week 9 Bonus Assignment – Streamlit Deployment  
-Cyber Shujaa · Data & AI Program
-
-**👤 Student**  
-Betelhem Kebede · CS-DA03-26035
-
 **🧰 Tech Stack**
 - Python 3.10+
 - scikit-learn (Pipeline, GridSearchCV, KNeighborsRegressor)
